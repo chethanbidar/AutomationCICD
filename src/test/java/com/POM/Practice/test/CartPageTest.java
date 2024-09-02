@@ -32,7 +32,7 @@ public class CartPageTest extends BaseTest{
 	@Test(dataProvider ="getdata")
 	public void cart_Page_Test(HashMap<String, String> input) throws Exception 
 	{
-
+		//testing some code by CICD path testing
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
